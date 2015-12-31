@@ -33,7 +33,7 @@ $(document).ready(function () {
     loadContent(contentPath);
 
 
-    $('.bath-path').click(function () {
+    $('.bath-nav').click(function () {
         contentPath = $(this).attr("data-bath-path");
         loadContent(contentPath);
     });
