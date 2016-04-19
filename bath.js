@@ -35,13 +35,13 @@ $(document).ready(function () {
                     history.replaceState({}, '', window.location.href.slice(0, -1));
                 }
             }
-            window.history.pushState({"url": homePath}, "", urlFragment);
+            window.history.pushState({"url": contentPath}, "", urlFragment);
         }
         else {
             content.load(homePath, function(){
                 registerAnchorClickEvents();
             })
-            window.history.pushState({"url": contentPath}, "", "");
+            window.history.pushState({"url": homePath}, "", "");
         }
 
         $(window).scrollTop(0);
