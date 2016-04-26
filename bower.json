@@ -1,5 +1,5 @@
 {
-  "name": "BathJS",
+  "name": "bathjs",
   "main": "bath.js",
   "description": "A simple routing framework for static web sites.",
   "moduleType": [],
@@ -9,10 +9,11 @@
     "route"
   ],
   "authors": [
-    "Ryan Bray"
+    "Ryan Bray",
+    "Mike Morain"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/RyanBrayDev/bath.js",
+  "homepage": "https://github.com/RyanBrayDev/BathJS",
   "ignore": [
     "**/.*",
     "node_modules",
